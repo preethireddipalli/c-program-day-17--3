@@ -1,0 +1,22 @@
+#include<stdio.h>
+    int main(){
+                   int n, x, y, t;
+                   printf(" How many  numbers : ");
+                   scanf("%d", &n);
+                   t=n;
+                   if(n>0){
+                  
+                   scanf("%d", &x);
+                   n--;
+                   if(n>0){
+                   for(;n>=1; n--){
+                     
+                   scanf("%d", &y);
+                   if(x>y)
+                   x=y;
+                   }
+                   }
+                   }
+    printf("\n smallest number %d", t, x);
+    return(0);
+    }
